@@ -13,12 +13,6 @@ Fixed by Herbert Oppolzer / devio
 as described in https://devio.wordpress.com/2010/09/07/calculating-levenshtein-distance-in-tsql
 */
 
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
 -- MIN3 required for LEVENSHTEIN function; moved to separate code
 --create function dbo.MIN3(@a int, @b int, @c int)
 --returns int as
